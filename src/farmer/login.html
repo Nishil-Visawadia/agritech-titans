@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="icon" type="image/png" href="../../icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="/manifest.json">
     <title>Agritech</title>
@@ -16,10 +16,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./icon.png" alt="logo" width="24" height="24">
-                Agritech Titans
-            </a>
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../icon.png" alt="logo" width="24" height="24">
+                Agritech Titans</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,26 +33,27 @@
         </div>
     </nav>
 
-    <!-- Card with flex -->
-    <div class="d-flex justify-content-evenly align-items-center" style="flex-grow: 1;">
+    <h5 class="m-2" style="text-align: center;">Farmer Login</h5>
 
-        <div class="card text-bg-success" style="width: 10rem; height: 15rem;">
-            <div class="body d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                <h5 class="card-title">Farmer</h5>
-                <p class="card-text">goes here</p>
-                <a href="./src/farmer/login.html" class="btn btn-dark">Go➡️</a>
-            </div>
+    <form class="m-3">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
-
-        <div class="card text-bg-warning" style="width: 10rem; height: 15rem;">
-            <div class="body d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                <h5 class="card-title">Retailer &<br> Consumer</h5>
-                <p class="card-text">goes here</p>
-                <a href="#" class="btn btn-dark">Go➡️</a>
-            </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
-
-    </div>
+        <center>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </center>
+        <div>
+            <center>
+                <a href="./register.html">Register here!!</a>
+            </center>
+        </div>
+    </form>
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3 mt-auto">
